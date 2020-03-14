@@ -19,10 +19,11 @@ nav ul li a:hover{
  		background-color: #0f4c81;
  		opacity: 0.75;
  	}
+/*** boton toggler ***/
 	 .navbar-toggler{
 	    width: 47px;
 	    height: 34px;
-	    background-color: #ffd082;
+	    background-color: #0f4c81;
 	    border:none;
 	}
 	.navbar-toggler .navbar-toggler-icon{
@@ -32,6 +33,7 @@ nav ul li a:hover{
 	    background-color: #fff;
 	    margin-bottom: 5px;
 	}
+/*** fin ***/
  	.navbar-fixed.scrolled{
  		background-color: #0f4c81 !important;
 		opacity: 1;
