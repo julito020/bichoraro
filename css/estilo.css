@@ -1,0 +1,58 @@
+body{
+	background-color: #ffffff;
+}
+
+/*** Menu superior  ***/
+nav ul li a{
+	color: #ffffff ;
+}
+nav ul li a:hover{
+	color: #fff591;
+}
+	.navbar-brand{
+		color: #ffffff;
+	}
+	.navbar-brand:hover{
+		color: #fff591;
+	}
+ 	.navbar-fixed{
+ 		background-color: #0f4c81;
+ 		opacity: 0.75;
+ 	}
+	 .navbar-toggler{
+	    width: 47px;
+	    height: 34px;
+	    background-color: #ffd082;
+	    border:none;
+	}
+	.navbar-toggler .navbar-toggler-icon{
+	    width: 100%;
+	    float: left;
+	    height: 2px;
+	    background-color: #fff;
+	    margin-bottom: 5px;
+	}
+ 	.navbar-fixed.scrolled{
+ 		background-color: #0f4c81 !important;
+		opacity: 1;
+		 transition: all 1s ease;;
+	}
+	.c1{
+		background-color: salmon;
+		height: 500px;}
+	.c2{
+		background-color: red;
+		height: 500px;}
+	.c3{
+		background-color: salmon;
+		height: 500px;}
+	.slider{
+		height: 500px;
+	}
+	.navbar-nav {
+	    float: left;
+	    margin: 0;
+	    left: 50%;
+	    transform: translatex(-50%);
+	    position: relative;
+	}
