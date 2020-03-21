@@ -103,6 +103,7 @@ nav ul li a:hover{
 	}
 	/*** fin ***/
 
+	/* menu izquierda  y derecha superior */
 	.menuderecha{
 		float: left
 	    margin: 0;
@@ -116,6 +117,35 @@ nav ul li a:hover{
 		font-family: 'Prompt', sans-serif;
 		font-size: 18px;
 	}
+	/* fin de menu superior*/
+	
+	/*columna izquierda*/
+	.leermas{
+		color: #fff;
+		background-color: #35495e;
+		border-color: #35495e;
+	}
+	.leermas:hover{
+		color: #35495e;
+		background-color: #fff;
+		border-color: #35495e;
+	}
+
+	/*columna derecha*/
+	.buscador , .categoria , .publicidad{
+		color: #fff;
+		background-color: #35495e;
+	}
+	.btn-segundo{
+  		color: #fff;
+  		background-color: #35495e;
+	}
+	.btn-segundo:hover{
+		color: #35495e;
+  		background-color: #fff;
+  		border-color: #35495e;
+	}
+
 
 	/*pie de pagina*/
 	.piepagina{
