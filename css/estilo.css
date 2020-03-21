@@ -1,31 +1,99 @@
+/* fuentes de letras */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+/* fin de fuentes*/
+
 body{
 	background-color: #ffffff;
 }
 
 /*** Menu superior  ***/
 nav ul li a{
-	color: #ffffff ;
+	color: #ffffff;
 }
 nav ul li a:hover{
-	color: #fff591;
+	color: #00aae4;
 }
+	/* logo BichoRaro*/
 	.navbar-brand{
 		color: #ffffff;
+		font-family: 'Abril Fatface', cursive;
+		font-size: 30px;
+		float: left;
+		margin: 0;
+	    left: 50%;
+	    transform: translatex(-50%);
+	    position: relative;
 	}
 	.navbar-brand:hover{
-		color: #fff591;
+		color: #00aae4;
 	}
+	.primerologo{
+		color: #00aae4;
+		font-size: 30px;
+	}
+	.primerologo:hover{
+		color: #ffffff;
+	}
+	/*fin de logo bichoraro*/
+
+	/*color de la barra superior*/
  	.navbar-fixed{
- 		background-color: #0f4c81;
- 		opacity: 0.75;
+ 		background-color: transparent;
+ 		/*opacity: 0.85;*/
  	}
-/*** boton toggler ***/
+ 	.navbar-fixed.scrolled{
+ 		background-color: #35495e !important;
+		opacity: 1;
+		transition: all 1s ease;;
+	}
+	/*fin de barra superior*/
+
+	/* slider*/
+	.slider{
+		width: 100%;
+		height: 620px;
+		padding-top: 10rem;
+  		padding-bottom: calc(10rem - 4.5rem);
+	  	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/fondo1.jpg");
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-attachment: scroll;
+  		background-size: cover;
+	}
+	.divider {
+		max-width: 3.25rem;
+		border-width: 0.2rem;
+		border-color: #00aae4;
+	}
+	.btn-primario {
+  		color: #fff;
+  		background-color: #00aae4;
+ 		border-color: #00aae4;
+ 		font-size: 20px;
+ 		font-family: 'Concert One', cursive;
+ 		height: 40px;
+ 		border-radius: 25px 25px 25px 25px;
+	}
+	.btn-primario:hover {
+  		color: #00aae4;
+  		background-color: #fff;
+  		border-color: #00aae4;
+		}
+	.text-white-75 {
+		 color: rgba(255, 255, 255, 0.75);
+	}
+	/* fin slider*/
+
+	/*** boton toggler ***/
 	 .navbar-toggler{
 	    width: 47px;
 	    height: 34px;
-	    background-color: #0f4c81;
+	    background-color: #00aae4;
 	    border:none;
 	}
+
 	.navbar-toggler .navbar-toggler-icon{
 	    width: 100%;
 	    float: left;
@@ -33,28 +101,33 @@ nav ul li a:hover{
 	    background-color: #fff;
 	    margin-bottom: 5px;
 	}
-/*** fin ***/
- 	.navbar-fixed.scrolled{
- 		background-color: #0f4c81 !important;
-		opacity: 1;
-		 transition: all 1s ease;;
-	}
-	.c1{
-		background-color: salmon;
-		height: 500px;}
-	.c2{
-		background-color: red;
-		height: 500px;}
-	.c3{
-		background-color: salmon;
-		height: 500px;}
-	.slider{
-		height: 500px;
-	}
-	.navbar-nav {
-	    float: left;
+	/*** fin ***/
+
+	.menuderecha{
+		float: left
 	    margin: 0;
-	    left: 50%;
-	    transform: translatex(-50%);
+	    right: 10%;
+	    transform: translatex(10%);
 	    position: relative;
+	    font-family: 'Concert One', cursive;
+	    font-size: 18px;
 	}
+	.menuizquierda{
+		font-family: 'Prompt', sans-serif;
+		font-size: 18px;
+	}
+
+	/*pie de pagina*/
+	.piepagina{
+		background-color: #35495e;
+		color: #fff;
+	}
+	.piepagina a{color: #fff;}
+	/*final pie de pagina*/
+
+/* medias query para responsive*/
+@media (max-width: 990px) { 
+    .navbar{
+    	background-color: #35495e;
+    }
+}
