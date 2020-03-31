@@ -5,19 +5,16 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
 /* fin de fuentes*/
 
-body{
-	background-color: #ffffff;
-}
+body{background-color: #ffffff;}
 
 /*** Menu superior  ***/
-nav ul li a{
-	color: #ffffff;
-}
-nav ul li a:hover{
-	color: #00aae4;
-}
+nav ul li a{color: #ffffff;}
+
+nav ul li a:hover{color: #00aae4;}
+
 	/* logo BichoRaro*/
 	.navbar-brand{
 		color: #ffffff;
@@ -153,6 +150,7 @@ nav ul li a:hover{
 	.card-footer{
 		font-family: 'Josefin Sans', sans-serif;
 	}
+	/* fin columna izquierda */
 
 	/*columna derecha*/
 	.buscador , .categoria , .publicidad{
@@ -216,7 +214,19 @@ nav ul li a:hover{
 	  font-size: 2.25rem;
 	  line-height: 2rem;
 	}
-
+	.colaborador{
+		height: 300px;
+		width: 100%;
+	}
+	.colaboratitulo{
+		font-family: 'Abril Fatface', cursive;
+	}
+	.colaboradescri{}
+	.publicacioncuerpo{
+		font-family: 'Alegreya Sans', sans-serif;
+		text-align: justify;
+		font-size: 22px;
+	}
 	/*pie de pagina*/
 	.piepagina{
 		background-color: #35495e;
